@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url('../imagem/home2.png');
+    background-size: cover;
+}
+
+header{
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+
+.formContainer2{
+    max-width: center;
+    background-color: #ffffffbb;
+    padding:20px;    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+.mb2{ /*ajusta*/
+    margin-bottom: 25px;
+    color: deeppink;
+    font-size: 32px;
+    text-align: center;
+    border-style: dashed;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pForm{ /*texto formulario */
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input, select{
+    width:100%;
+    box-sizing: border-box;
+    padding: 9px;
+    border:none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    background-color: lavender;
+}
+
+input[type="submit"]{
+    color:azure;
+    background-color: cadetblue;
+    font-weight: bold;
+}
+
+section{
+    padding: 20px;
+    overflow: hidden;
+}
+
+table, th, td{
+    padding: 5px 3px 5px 3px;
+    border: 1px solid #44444444;
+    border-collapse: collapse;
+
+}
+
+th{
+    width: 100%;
+    background-color:deeppink;
+    color: aliceblue;
+}
