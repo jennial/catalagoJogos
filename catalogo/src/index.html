@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Catalogo</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root><div class="container">
+		<section>
+			<h1 class="mb2">Cadastro de Jogos</h1>
+			<div class="formContainer2">
+			<form >
+				<label for="titulo">Titulo:</label>
+				<input type="text" id="titulo" name="titulo"><br>
+
+				<label for="descricao">Descrição:</label>
+				<input id="descricao" name="descricao"></input><br>
+
+				<label for="data_lancamento">Data de Lançamento:</label>
+				<input type="date" id="data_lancamento" name="data_lancamento"><br>
+
+				<label for="genero">Gênero(s) do Jogo:</label>
+				<select id="genero" name="genero">
+					<option value="acao">Ação</option>
+					<option value="aventura">Aventura</option>
+					<option value="esporte">Esporte</option>
+					<option value="estrategia">Estratégia</option>
+					<option value="rpg">RPG</option>
+					<option value="simulacao">Simulação</option>
+				</select><br>
+
+				<label for="desenvolvedora">Desenvolvedora:</label>
+				<input type="text" id="desenvolvedora" name="desenvolvedora"><br>
+
+				<input type="submit" value="Cadastrar">
+			</form>
+			</div>
+		</section>
+</div></app-root>
+</body>
+</html>
